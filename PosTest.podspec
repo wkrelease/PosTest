@@ -79,7 +79,6 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/wkrelease/PosTest.git", :tag => "#{s.version}" }
 
-
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
@@ -88,7 +87,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "PosTest", "PosTest/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

@@ -15,6 +15,7 @@
 		3C879F80207A2192000A4F8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C879F7F207A2192000A4F8F /* main.m */; };
 		3C879F8A207A2193000A4F8F /* PosTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C879F89207A2193000A4F8F /* PosTestTests.m */; };
 		3C879F95207A2193000A4F8F /* PosTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C879F94207A2193000A4F8F /* PosTestUITests.m */; };
+		3C879FA4207A272F000A4F8F /* PosTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C879FA3207A272F000A4F8F /* PosTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3C879F90207A2193000A4F8F /* PosTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PosTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C879F94207A2193000A4F8F /* PosTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PosTestUITests.m; sourceTree = "<group>"; };
 		3C879F96207A2193000A4F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C879FA2207A272F000A4F8F /* PosTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PosTest.h; sourceTree = "<group>"; };
+		3C879FA3207A272F000A4F8F /* PosTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PosTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		3C879F6F207A2192000A4F8F /* PosTest */ = {
 			isa = PBXGroup;
 			children = (
+				3C879FA2207A272F000A4F8F /* PosTest.h */,
+				3C879FA3207A272F000A4F8F /* PosTest.m */,
 				3C879F70207A2192000A4F8F /* AppDelegate.h */,
 				3C879F71207A2192000A4F8F /* AppDelegate.m */,
 				3C879F73207A2192000A4F8F /* ViewController.h */,
@@ -267,6 +272,7 @@
 			files = (
 				3C879F75207A2192000A4F8F /* ViewController.m in Sources */,
 				3C879F80207A2192000A4F8F /* main.m in Sources */,
+				3C879FA4207A272F000A4F8F /* PosTest.m in Sources */,
 				3C879F72207A2192000A4F8F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
